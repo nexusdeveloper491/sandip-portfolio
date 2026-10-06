@@ -1,0 +1,1127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sandip Kundu | Full Stack & Web Developer Portfolio</title>
+  <meta name="description" content="Portfolio of Sandip Kundu — Experienced Web Developer specializing in responsive, modern websites, React, Next.js, Node.js, Python, WordPress, and Automation.">
+  <meta name="keywords" content="Sandip Kundu, Web Developer, Full Stack Developer, React, Next.js, Node.js, Python, WordPress, Elementor, Kolkata, West Bengal">
+  <meta name="author" content="Sandip Kundu">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="assets/favicon-circle.png">
+  <link rel="apple-touch-icon" href="assets/favicon-circle.png">
+
+  <!-- Open Graph / Meta -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Sandip Kundu | Web Developer Portfolio">
+  <meta property="og:description" content="Explore projects, skills, and experience of Sandip Kundu — delivering modern, responsive web experiences.">
+  <meta property="og:image" content="assets/sandip.jpg">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Anton&family=Bebas+Neue&family=JetBrains+Mono:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Outfit:wght@500;600;700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700&family=Syne:wght@700;800;900&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Scroll Progress Indicator -->
+  <div class="scroll-progress-line" id="scroll-progress" aria-hidden="true"></div>
+
+  <!-- Custom Cursor -->
+  <div class="cursor-dot" id="cursor-dot" aria-hidden="true"></div>
+  <div class="cursor-ring" id="cursor-ring" aria-hidden="true"></div>
+
+  <!-- Ambient Background -->
+  <div class="studio-ambient-warmth" aria-hidden="true"></div>
+  <div class="studio-grain" aria-hidden="true"></div>
+
+  <!-- ==========================================================================
+       HEADER
+       ========================================================================== -->
+  <header class="site-header" id="header">
+    <div class="container nav-container">
+      <a href="#hero" class="brand-logo" aria-label="Sandip Kundu Home">
+        <div class="brand-avatar-box">
+          <img src="assets/sandip.jpg" alt="Sandip Kundu" class="header-avatar-img">
+        </div>
+        <div class="brand-text-block">
+          <span class="brand-name" aria-label="SANDIP"><span>S</span><span>A</span><span>N</span><span>D</span><span>I</span><span>P</span></span>
+          <span class="brand-tagline">FULLSTACK ARCHITECT</span>
+        </div>
+      </a>
+
+      <!-- Navigation -->
+      <nav aria-label="Main Navigation">
+        <ul class="nav-links" id="nav-links">
+          <li><a href="#hero" class="active"><span class="nav-num">00</span>Home</a></li>
+          <li><a href="#about"><span class="nav-num">01</span>About</a></li>
+          <li><a href="#experience"><span class="nav-num">02</span>Experience</a></li>
+          <li><a href="#skills"><span class="nav-num">03</span>Skills</a></li>
+          <li><a href="#portfolio"><span class="nav-num">04</span>Portfolio</a></li>
+          <li><a href="#contact"><span class="nav-num">05</span>Contact</a></li>
+          <li class="mobile-nav-cta"><a href="#contact" class="mobile-say-hello-btn">SAY HELLO &rarr;</a></li>
+        </ul>
+      </nav>
+
+      <!-- Action Buttons -->
+      <div class="header-actions">
+        <a href="#contact" class="btn-header-pill btn-magnetic">SAY HELLO &rarr;</a>
+        <button class="mobile-toggle" id="mobile-toggle" aria-label="Toggle menu" aria-expanded="false">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- ==========================================================================
+         HERO SECTION
+         ========================================================================== -->
+    <section class="hero-section sk-hero-stage" id="hero">
+      <div class="container hero-container-wide">
+        
+        <!-- Metadata Bar -->
+        <div class="hero-meta-bar reveal-item">
+          <div class="hero-meta-left">
+            <span>SANDIPKUNDU.DEV &mdash; FULLSTACK</span>
+          </div>
+          <div class="hero-meta-right">
+            <span>ASHOKNAGAR, WB &bull; IST</span>
+          </div>
+        </div>
+        
+        <!-- Divider -->
+        <div class="hero-dashed-divider reveal-item" aria-hidden="true"></div>
+
+        <!-- Hero Stage -->
+        <div class="hero-stage-canvas reveal-item">
+          
+          <!-- Portrait Card -->
+          <div class="hero-portrait-card" id="sk-hero-portrait-card">
+            <div class="hero-portrait-img-wrap">
+              <img src="assets/sandip.jpg" alt="Sandip Kundu" class="hero-portrait-img" loading="eager">
+              <div class="hero-portrait-glow" aria-hidden="true"></div>
+            </div>
+            
+            <div class="hero-portrait-tag">
+              <span>// THE DEV YOU CAN TRUST WITH PROD</span>
+            </div>
+          </div>
+
+          <!-- Hero Name -->
+          <h1 class="hero-monumental-name">
+            <div class="hero-name-row hero-row-1">
+              <span class="name-text">SAN</span>
+              <div class="hero-dev-stamp" id="hero-dev-badge" aria-label="Full-Stack Developer">
+                <span class="stamp-core-text">DEV</span>
+              </div>
+              <span class="name-text">DIP</span>
+            </div>
+
+            <div class="hero-name-row hero-row-2">
+              <span class="name-text-full">KUNDU</span>
+            </div>
+          </h1>
+
+          <!-- Action Buttons -->
+          <div class="hero-bottom-actions">
+            <a href="#contact" class="hero-action-pill pill-primary btn-magnetic">
+              <span>DISCUSS A PROJECT &rarr;</span>
+            </a>
+            <a href="#portfolio" class="hero-action-pill pill-secondary btn-magnetic">
+              <span>RECENT PROJECTS</span>
+            </a>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         MARQUEE TICKER
+         ========================================================================== -->
+    <div class="kinetic-marquee-band" aria-hidden="true">
+      <div class="marquee-track">
+        <div class="marquee-item"><span class="m-num">// 01</span> FULL-STACK WEB ARCHITECTURE</div>
+        <div class="marquee-item"><span class="m-num">// 02</span> WHATSAPP AUTOMATION PIPELINES</div>
+        <div class="marquee-item"><span class="m-num">// 03</span> BESPOKE FRONTEND SYSTEMS</div>
+        <div class="marquee-item"><span class="m-num">// 04</span> DATA INGESTION &amp; EXTRACTION</div>
+        <div class="marquee-item"><span class="m-num">// 05</span> REALTIME CRM &amp; SOCKET.IO</div>
+        <div class="marquee-item"><span class="m-num">// 06</span> HIGH-CONVERSION UI/UX</div>
+        <!-- Marquee Clones -->
+        <div class="marquee-item"><span class="m-num">// 01</span> FULL-STACK WEB ARCHITECTURE</div>
+        <div class="marquee-item"><span class="m-num">// 02</span> WHATSAPP AUTOMATION PIPELINES</div>
+        <div class="marquee-item"><span class="m-num">// 03</span> BESPOKE FRONTEND SYSTEMS</div>
+        <div class="marquee-item"><span class="m-num">// 04</span> DATA INGESTION &amp; EXTRACTION</div>
+        <div class="marquee-item"><span class="m-num">// 05</span> REALTIME CRM &amp; SOCKET.IO</div>
+        <div class="marquee-item"><span class="m-num">// 06</span> HIGH-CONVERSION UI/UX</div>
+      </div>
+    </div>
+
+    <!-- ==========================================================================
+         ABOUT SECTION
+         ========================================================================== -->
+    <section class="about-section" id="about">
+      <div class="container">
+        <div class="section-header reveal-item">
+          <span class="section-tag">[ 01 // PROFILE ]</span>
+          <h2 class="section-title">About <span>The Architect</span></h2>
+          <p class="section-subtitle">Dedicated website developer committed to writing clean code, designing polished user interfaces, and solving real-world challenges.</p>
+        </div>
+
+        <div class="about-grid">
+          <!-- Story -->
+          <div class="about-narrative">
+            <p>
+              I am an experienced Website Developer with a passion for building fast, intuitive, and modern web applications. From custom WordPress &amp; headless CMS platforms to modern React and Next.js full-stack architectures, I help businesses and startups translate their goals into impactful digital realities.
+            </p>
+            <p>
+              My workflow spans modern frontend engineering, robust backend APIs, automated business workflows, and CRM integrations. I focus on clean code, seamless accessibility, mobile responsiveness, and delightful user interactions.
+            </p>
+
+            <div class="about-highlight-box">
+              <p>
+                "Creating websites is more than just writing code — it's about engineering solutions that drive growth, engage audiences, and perform reliably under scale."
+              </p>
+            </div>
+          </div>
+
+          <!-- Details Grid -->
+          <div class="about-details-grid">
+            
+            <!-- Education -->
+            <div class="info-card">
+              <div class="info-card-header">
+                <div class="info-card-icon">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 10v6M2 10l10-5 10 5-10 5z"></path><path d="M6 12v5c3 3 9 3 12 0v-5"></path></svg>
+                </div>
+                <h3>Education</h3>
+              </div>
+              <ul>
+                <li>
+                  <strong>Gobardanga Hindu College</strong>
+                  B.A. General (Currently Pursuing)
+                </li>
+                <li>
+                  <strong>Kalyangarh Vidyamandir</strong>
+                  12th Pass with Science Stream (PCM)
+                </li>
+              </ul>
+            </div>
+
+            <!-- Languages -->
+            <div class="info-card">
+              <div class="info-card-header">
+                <div class="info-card-icon">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><line x1="2" y1="12" x2="22" y2="12"></line><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path></svg>
+                </div>
+                <h3>Languages</h3>
+              </div>
+              <div class="languages-tags">
+                <span class="lang-pill">Bengali</span>
+                <span class="lang-pill">English</span>
+                <span class="lang-pill">Hindi</span>
+              </div>
+            </div>
+
+            <!-- Work Mode & Base -->
+            <div class="info-card">
+              <div class="info-card-header">
+                <div class="info-card-icon">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+                </div>
+                <h3>Work Mode &amp; Base</h3>
+              </div>
+              <ul>
+                <li>
+                  <strong>Remote Work / Freelancing</strong>
+                  Available for global remote engagements &amp; projects
+                </li>
+                <li>
+                  <strong>Based in</strong>
+                  Ashoknagar, West Bengal, India
+                </li>
+              </ul>
+            </div>
+
+            <!-- Core Strengths -->
+            <div class="info-card">
+              <div class="info-card-header">
+                <div class="info-card-icon">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+                </div>
+                <h3>Core Strengths</h3>
+              </div>
+              <ul>
+                <li>
+                  <strong>Speed &amp; Performance</strong>
+                  Fast loading times and SEO optimized
+                </li>
+                <li>
+                  <strong>End-to-End Delivery</strong>
+                  From design mocks to production launch
+                </li>
+              </ul>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         EXPERIENCE SECTION
+         ========================================================================== -->
+    <section class="experience-section" id="experience">
+      <div class="container">
+        <div class="section-header reveal-item">
+          <span class="section-tag">[ 02 // PRODUCTION TIMELINE ]</span>
+          <h2 class="section-title">Work &amp; <span>Experience</span></h2>
+          <p class="section-subtitle">A proven history of delivering top-tier web solutions for clients and collaborative projects.</p>
+        </div>
+
+        <div class="timeline-wrapper" id="timeline-wrapper">
+          <!-- Timeline Rail & Beam -->
+          <div class="timeline-track-rail" aria-hidden="true"></div>
+          <div class="timeline-progress-beam" id="timeline-progress-beam" aria-hidden="true"></div>
+          
+          <!-- Experience 1 -->
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-card">
+              <div class="timeline-top">
+                <h3 class="timeline-role">Independent Freelance Web Developer</h3>
+                <span class="timeline-period">Oct 19, 2023 – Present</span>
+              </div>
+              <div class="timeline-company">Freelancing &amp; Direct Client Partnerships</div>
+              <p class="timeline-desc">
+                Architected and deployed responsive, user-friendly websites, tailored e-commerce systems, landing pages, and interactive web tools for business clients worldwide. Managed complete project lifecycles from UX design and tech stack selection to deployment, domain management, and ongoing performance optimization.
+              </p>
+              <div class="timeline-metrics">
+                <span class="metric-badge">
+                  <svg class="metric-icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="8" r="7"></circle><polyline points="8.21 13.89 7 23 12 20 17 23 15.79 13.88"></polyline></svg>
+                  50+ Completed Projects
+                </span>
+                <span class="metric-badge">
+                  <svg class="metric-icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="16 18 22 12 16 6"></polyline><polyline points="8 6 2 12 8 18"></polyline></svg>
+                  React &bull; Node &bull; WordPress
+                </span>
+                <span class="metric-badge">
+                  <svg class="metric-icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
+                  100% On-time Delivery
+                </span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Experience 2 -->
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-card">
+              <div class="timeline-top">
+                <h3 class="timeline-role">Web Developer</h3>
+                <span class="timeline-period">Nov 17, 2025 – Apr 12, 2026</span>
+              </div>
+              <div class="timeline-company">Oyeber Digital Solutions</div>
+              <p class="timeline-desc">
+                Spearheaded the development and maintenance of scalable web platforms, custom Elementor &amp; ACF implementations, API integrations, and marketing automation workflows. Collaborated across multidisciplinary teams to ensure top-notch Core Web Vitals and seamless cross-browser responsiveness.
+              </p>
+              <div class="timeline-metrics">
+                <span class="metric-badge">
+                  <svg class="metric-icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="7" width="20" height="14" rx="2" ry="2"></rect><path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"></path></svg>
+                  20+ Enterprise Projects
+                </span>
+                <span class="metric-badge">
+                  <svg class="metric-icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="23 4 23 10 17 10"></polyline><polyline points="1 20 1 14 7 14"></polyline><path d="M3.51 9a9 9 0 0 1 14.85-3.36L23 10M1 14l4.64 4.36A9 9 0 0 0 20.49 15"></path></svg>
+                  Automation &amp; CRM Sync
+                </span>
+                <span class="metric-badge">
+                  <svg class="metric-icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="23 6 13.5 15.5 8.5 10.5 1 18"></polyline><polyline points="17 6 23 6 23 12"></polyline></svg>
+                  High Client Retention
+                </span>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         SKILLS SECTION
+         ========================================================================== -->
+    <section class="skills-section" id="skills">
+      <div class="container">
+        <div class="section-header reveal-item">
+          <span class="section-tag">[ 03 // TECHNICAL ARSENAL ]</span>
+          <h2 class="section-title">Engineered <span>Capabilities</span></h2>
+          <p class="section-subtitle">Technologies, frameworks, and specialized tools I use to build modern, production-grade applications.</p>
+        </div>
+
+        <!-- Filters -->
+        <div class="skills-filter-nav">
+          <button class="filter-btn active" data-filter="all">All Skills</button>
+          <button class="filter-btn" data-filter="frontend">Frontend</button>
+          <button class="filter-btn" data-filter="backend">Backend &amp; APIs</button>
+          <button class="filter-btn" data-filter="cms">CMS &amp; Database</button>
+          <button class="filter-btn" data-filter="tools">Tools &amp; Automation</button>
+        </div>
+
+        <!-- Skills Grid -->
+        <div class="skills-grid" id="skills-grid">
+          
+          <!-- Frontend -->
+          <div class="skill-card" data-category="frontend">
+            <div class="skill-icon-wrap">
+              <img src="assets/icons/html5.svg" alt="HTML5 logo">
+            </div>
+            <h4>HTML5</h4>
+            <span class="skill-category-tag">Frontend</span>
+          </div>
+
+          <div class="skill-card" data-category="frontend">
+            <div class="skill-icon-wrap">
+              <img src="assets/icons/css3.svg" alt="CSS3 logo">
+            </div>
+            <h4>CSS3 &amp; Flex/Grid</h4>
+            <span class="skill-category-tag">Frontend</span>
+          </div>
+
+          <div class="skill-card" data-category="frontend">
+            <div class="skill-icon-wrap">
+              <img src="assets/icons/javascript.svg" alt="JavaScript logo">
+            </div>
+            <h4>JavaScript (ES6+)</h4>
+            <span class="skill-category-tag">Frontend</span>
+          </div>
+
+          <div class="skill-card" data-category="frontend">
+            <div class="skill-icon-wrap">
+              <img src="assets/icons/react.svg" alt="React logo">
+            </div>
+            <h4>React.js</h4>
+            <span class="skill-category-tag">Frontend</span>
+          </div>
+
+          <div class="skill-card" data-category="frontend">
+            <div class="skill-icon-wrap">
+              <img src="assets/icons/nextjs.svg" alt="Next.js logo">
+            </div>
+            <h4>Next.js</h4>
+            <span class="skill-category-tag">Frontend &amp; SSR</span>
+          </div>
+
+          <div class="skill-card" data-category="frontend">
+            <div class="skill-icon-wrap">
+              <img src="assets/icons/bootstrap.svg" alt="Bootstrap logo">
+            </div>
+            <h4>Bootstrap</h4>
+            <span class="skill-category-tag">Frontend</span>
+          </div>
+
+          <!-- Backend & APIs -->
+          <div class="skill-card" data-category="backend">
+            <div class="skill-icon-wrap">
+              <img src="assets/icons/nodejs.svg" alt="Node.js logo">
+            </div>
+            <h4>Node.js</h4>
+            <span class="skill-category-tag">Backend</span>
+          </div>
+
+          <div class="skill-card" data-category="backend">
+            <div class="skill-icon-wrap">
+              <img src="assets/icons/express.svg" alt="Express.js logo">
+            </div>
+            <h4>Express.js</h4>
+            <span class="skill-category-tag">Backend</span>
+          </div>
+
+          <div class="skill-card" data-category="backend">
+            <div class="skill-icon-wrap">
+              <img src="assets/icons/python.svg" alt="Python logo">
+            </div>
+            <h4>Python</h4>
+            <span class="skill-category-tag">Backend &amp; Scripts</span>
+          </div>
+
+          <div class="skill-card" data-category="backend">
+            <div class="skill-icon-wrap">
+              <img src="assets/icons/fastapi.svg" alt="FastAPI logo">
+            </div>
+            <h4>FastAPI</h4>
+            <span class="skill-category-tag">High Speed APIs</span>
+          </div>
+
+          <div class="skill-card" data-category="backend">
+            <div class="skill-icon-wrap">
+              <img src="assets/icons/socketio.svg" alt="Socket.io logo">
+            </div>
+            <h4>Socket.io</h4>
+            <span class="skill-category-tag">Real-Time WebSockets</span>
+          </div>
+
+          <!-- CMS & Database -->
+          <div class="skill-card" data-category="cms">
+            <div class="skill-icon-wrap">
+              <img src="assets/icons/mongodb.svg" alt="MongoDB logo">
+            </div>
+            <h4>MongoDB</h4>
+            <span class="skill-category-tag">NoSQL Database</span>
+          </div>
+
+          <div class="skill-card" data-category="cms">
+            <div class="skill-icon-wrap">
+              <img src="assets/icons/wordpress.svg" alt="WordPress logo">
+            </div>
+            <h4>WordPress</h4>
+            <span class="skill-category-tag">CMS Architecture</span>
+          </div>
+
+          <div class="skill-card" data-category="cms">
+            <div class="skill-icon-wrap">
+              <img src="assets/icons/elementor.svg" alt="Elementor logo">
+            </div>
+            <h4>Elementor Pro</h4>
+            <span class="skill-category-tag">Page Builder</span>
+          </div>
+
+          <div class="skill-card" data-category="cms">
+            <div class="skill-icon-wrap">
+              <img src="assets/icons/acf.svg" alt="ACF Pro logo">
+            </div>
+            <h4>ACF Pro</h4>
+            <span class="skill-category-tag">Custom Post &amp; Fields</span>
+          </div>
+
+          <!-- Tools & Automation -->
+          <div class="skill-card" data-category="tools">
+            <div class="skill-icon-wrap">
+              <img src="assets/icons/git.svg" alt="Git logo">
+            </div>
+            <h4>Git &amp; GitHub</h4>
+            <span class="skill-category-tag">Version Control</span>
+          </div>
+
+          <div class="skill-card" data-category="tools">
+            <div class="skill-icon-wrap">
+              <img src="assets/icons/npm.svg" alt="NPM logo">
+            </div>
+            <h4>NPM</h4>
+            <span class="skill-category-tag">Package Management</span>
+          </div>
+
+          <div class="skill-card" data-category="tools">
+            <div class="skill-icon-wrap">
+              <img src="assets/icons/crm.svg" alt="CRM Systems logo">
+            </div>
+            <h4>CRM Systems</h4>
+            <span class="skill-category-tag">Lead &amp; Pipeline Mgmt</span>
+          </div>
+
+          <div class="skill-card" data-category="tools">
+            <div class="skill-icon-wrap">
+              <img src="assets/icons/automation.svg" alt="Automation &amp; Webhooks logo">
+            </div>
+            <h4>Automation &amp; Webhooks</h4>
+            <span class="skill-category-tag">Workflow Integration</span>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         PORTFOLIO SECTION
+         ========================================================================== -->
+    <section class="portfolio-section" id="portfolio">
+      <div class="container">
+        
+        <div class="section-header portfolio-header reveal-item">
+          <span class="section-tag">[ 04 // SELECTED COMMISSIONS ]</span>
+          <h2 class="section-title">Featured <span>Case Studies</span></h2>
+          <p class="section-subtitle">Real-world client solutions, custom web engines, and automation platforms. Scroll down to browse the stacked project deck.</p>
+        </div>
+
+        <!-- Stacking Cards Deck -->
+        <div class="stacking-cards-deck" id="stacking-cards-deck">
+          
+          <!-- Project 1: Tab Travels -->
+          <article class="stack-card spotlight-card" data-project-id="tab-travels" style="--stack-index: 0;">
+            <div class="stack-card-inner">
+              <div class="stack-card-media">
+                <img src="assets/projects/thumb_tab_travels.png" alt="Frontend Website - Tab Travels Whatsapp Booking Website" class="stack-card-img" loading="lazy">
+                <div class="stack-card-media-overlay">
+                  <button class="btn btn-primary btn-sm sk-case-study-btn" data-project-id="tab-travels" type="button">
+                    <span>View Case Study</span>
+                    <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="7" y1="17" x2="17" y2="7"></line><polyline points="7 7 17 7 17 17"></polyline></svg>
+                  </button>
+                </div>
+              </div>
+              <div class="stack-card-info">
+                <div class="stack-card-meta">
+                  <span class="stack-num">// 01 &bull; WEB PLATFORM</span>
+                  <span class="stack-badge-live">LIVE SYSTEM</span>
+                </div>
+                <h3 class="stack-card-title">
+                  <a href="#case-study" class="open-case-study-link" data-project-id="tab-travels">Frontend Website - Tab Travels Whatsapp Booking Website</a>
+                </h3>
+                <p class="stack-card-desc">High-speed, conversion-focused tourism and cab booking platform with interactive WhatsApp direct integration and instant lead dispatch.</p>
+                <div class="stack-card-tech">
+                  <span class="stack-tech-tag">HTML5</span>
+                  <span class="stack-tech-tag">CSS3</span>
+                  <span class="stack-tech-tag">JavaScript (ES6+)</span>
+                  <span class="stack-tech-tag">WhatsApp API</span>
+                </div>
+                <div class="stack-card-actions">
+                  <button class="stack-view-btn sk-case-study-btn" data-project-id="tab-travels" type="button">
+                    <span>Explore Architecture &amp; Media</span>
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="9 18 15 12 9 6"></polyline></svg>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 2: WA Outreach -->
+          <article class="stack-card spotlight-card" data-project-id="wa-outreach" style="--stack-index: 1;">
+            <div class="stack-card-inner">
+              <div class="stack-card-media">
+                <img src="assets/projects/thumb_wa_outreach.png" alt="WA Outreach — WhatsApp Automation & Live CRM" class="stack-card-img" loading="lazy">
+                <div class="stack-card-media-overlay">
+                  <button class="btn btn-primary btn-sm sk-case-study-btn" data-project-id="wa-outreach" type="button">
+                    <span>View Case Study</span>
+                    <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="7" y1="17" x2="17" y2="7"></line><polyline points="7 7 17 7 17 17"></polyline></svg>
+                  </button>
+                </div>
+              </div>
+              <div class="stack-card-info">
+                <div class="stack-card-meta">
+                  <span class="stack-num">// 02 &bull; AUTOMATION &amp; CRM</span>
+                  <span class="stack-badge-private">ENTERPRISE CRM</span>
+                </div>
+                <h3 class="stack-card-title">
+                  <a href="#case-study" class="open-case-study-link" data-project-id="wa-outreach">WA Outreach — WhatsApp Automation &amp; Live CRM</a>
+                </h3>
+                <p class="stack-card-desc">Full-stack WhatsApp automation and CRM platform built with Node.js and Express.js with Excel ingestion, randomized anti-ban queue, and 2-way live chat.</p>
+                <div class="stack-card-tech">
+                  <span class="stack-tech-tag">Node.js</span>
+                  <span class="stack-tech-tag">Express</span>
+                  <span class="stack-tech-tag">Socket.io</span>
+                  <span class="stack-tech-tag">Baileys</span>
+                  <span class="stack-tech-tag">Docker</span>
+                </div>
+                <div class="stack-card-actions">
+                  <button class="stack-view-btn sk-case-study-btn" data-project-id="wa-outreach" type="button">
+                    <span>Explore Architecture &amp; Media</span>
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="9 18 15 12 9 6"></polyline></svg>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 3: Basirhat Honey Cultivators -->
+          <article class="stack-card spotlight-card" data-project-id="basirhat-honey" style="--stack-index: 2;">
+            <div class="stack-card-inner">
+              <div class="stack-card-media">
+                <img src="assets/projects/thumb_basirhat_honey.png" alt="Basirhat Honey Cultivators Co-Op E-Commerce" class="stack-card-img" loading="lazy">
+                <div class="stack-card-media-overlay">
+                  <button class="btn btn-primary btn-sm sk-case-study-btn" data-project-id="basirhat-honey" type="button">
+                    <span>View Case Study</span>
+                    <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="7" y1="17" x2="17" y2="7"></line><polyline points="7 7 17 7 17 17"></polyline></svg>
+                  </button>
+                </div>
+              </div>
+              <div class="stack-card-info">
+                <div class="stack-card-meta">
+                  <span class="stack-num">// 03 &bull; E-COMMERCE &amp; CO-OP</span>
+                  <span class="stack-badge-live">LIVE STORE</span>
+                </div>
+                <h3 class="stack-card-title">
+                  <a href="#case-study" class="open-case-study-link" data-project-id="basirhat-honey">Basirhat Honey Cultivators Co-Op E-Commerce</a>
+                </h3>
+                <p class="stack-card-desc">A custom, high-converting e-commerce web platform engineered for Basirhat Honey Cultivators R.E.H. Indl. Co-Op. Society Limited. Designed to showcase 100% natural, freshly extracted raw honey, bee wax, pollen, and comb honey collections.</p>
+                <div class="stack-card-tech">
+                  <span class="stack-tech-tag">WordPress</span>
+                  <span class="stack-tech-tag">Elementor</span>
+                  <span class="stack-tech-tag">WooCommerce</span>
+                  <span class="stack-tech-tag">ACF</span>
+                </div>
+                <div class="stack-card-actions">
+                  <button class="stack-view-btn sk-case-study-btn" data-project-id="basirhat-honey" type="button">
+                    <span>Explore Architecture &amp; Media</span>
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="9 18 15 12 9 6"></polyline></svg>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 4: WhatsApp Multi-Device Engine -->
+          <article class="stack-card spotlight-card" data-project-id="wa-multidevice" style="--stack-index: 3;">
+            <div class="stack-card-inner">
+              <div class="stack-card-media">
+                <img src="assets/projects/thumb_wa_multidevice.png" alt="WhatsApp Multi-Device Engine (Employee and Admin Panel)" class="stack-card-img" loading="lazy">
+                <div class="stack-card-media-overlay">
+                  <button class="btn btn-primary btn-sm sk-case-study-btn" data-project-id="wa-multidevice" type="button">
+                    <span>View Case Study</span>
+                    <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="7" y1="17" x2="17" y2="7"></line><polyline points="7 7 17 7 17 17"></polyline></svg>
+                  </button>
+                </div>
+              </div>
+              <div class="stack-card-info">
+                <div class="stack-card-meta">
+                  <span class="stack-num">// 04 &bull; MULTI-TENANT BACKEND</span>
+                  <span class="stack-badge-private">ENTERPRISE ENGINE</span>
+                </div>
+                <h3 class="stack-card-title">
+                  <a href="#case-study" class="open-case-study-link" data-project-id="wa-multidevice">WhatsApp Multi-Device Engine (Employee and Admin Panel)</a>
+                </h3>
+                <p class="stack-card-desc">High-concurrency multi-user WhatsApp outreach server with RBAC collision locks, disk persistence, LID thread merging, and automated media decrypt pipeline.</p>
+                <div class="stack-card-tech">
+                  <span class="stack-tech-tag">Node.js</span>
+                  <span class="stack-tech-tag">Express</span>
+                  <span class="stack-tech-tag">Socket.io</span>
+                  <span class="stack-tech-tag">Baileys</span>
+                </div>
+                <div class="stack-card-actions">
+                  <button class="stack-view-btn sk-case-study-btn" data-project-id="wa-multidevice" type="button">
+                    <span>Explore Architecture &amp; Media</span>
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="9 18 15 12 9 6"></polyline></svg>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 5: Nexus Digital -->
+          <article class="stack-card spotlight-card" data-project-id="nexus-digital" style="--stack-index: 4;">
+            <div class="stack-card-inner">
+              <div class="stack-card-media">
+                <img src="assets/projects/thumb_nexus_digital.png" alt="Frontend Website - Nexus Digital's website (Digital Marketing Agency)" class="stack-card-img" loading="lazy">
+                <div class="stack-card-media-overlay">
+                  <button class="btn btn-primary btn-sm sk-case-study-btn" data-project-id="nexus-digital" type="button">
+                    <span>View Case Study</span>
+                    <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="7" y1="17" x2="17" y2="7"></line><polyline points="7 7 17 7 17 17"></polyline></svg>
+                  </button>
+                </div>
+              </div>
+              <div class="stack-card-info">
+                <div class="stack-card-meta">
+                  <span class="stack-num">// 05 &bull; DIGITAL AGENCY</span>
+                  <span class="stack-badge-live">LIVE PLATFORM</span>
+                </div>
+                <h3 class="stack-card-title">
+                  <a href="#case-study" class="open-case-study-link" data-project-id="nexus-digital">Frontend Website - Nexus Digital's website (Digital Marketing Agency)</a>
+                </h3>
+                <p class="stack-card-desc">Premier digital marketing agency and technology portfolio website engineered with dark glassmorphism, Cotmit AI automation, client case studies, verified review databases, and consultation booking.</p>
+                <div class="stack-card-tech">
+                  <span class="stack-tech-tag">HTML5</span>
+                  <span class="stack-tech-tag">CSS 3</span>
+                  <span class="stack-tech-tag">JavaScript</span>
+                  <span class="stack-tech-tag">XML Sitemap</span>
+                  <span class="stack-tech-tag">Vercel</span>
+                </div>
+                <div class="stack-card-actions">
+                  <button class="stack-view-btn sk-case-study-btn" data-project-id="nexus-digital" type="button">
+                    <span>Explore Architecture &amp; Media</span>
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="9 18 15 12 9 6"></polyline></svg>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 6: MapLead Scraper -->
+          <article class="stack-card spotlight-card" data-project-id="maplead-scraper" style="--stack-index: 5;">
+            <div class="stack-card-inner">
+              <div class="stack-card-media">
+                <img src="assets/projects/thumb_maplead_scraper.png" alt="MapLead Scraper — Google Sheets Add-on & B2B Extraction Engine" class="stack-card-img" loading="lazy">
+                <div class="stack-card-media-overlay">
+                  <button class="btn btn-primary btn-sm sk-case-study-btn" data-project-id="maplead-scraper" type="button">
+                    <span>View Case Study</span>
+                    <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="7" y1="17" x2="17" y2="7"></line><polyline points="7 7 17 7 17 17"></polyline></svg>
+                  </button>
+                </div>
+              </div>
+              <div class="stack-card-info">
+                <div class="stack-card-meta">
+                  <span class="stack-num">// 06 &bull; B2B EXTRACTION</span>
+                  <span class="stack-badge-private">SHEETS ADD-ON</span>
+                </div>
+                <h3 class="stack-card-title">
+                  <a href="#case-study" class="open-case-study-link" data-project-id="maplead-scraper">MapLead Scraper — Google Sheets Add-on &amp; B2B Extraction Engine</a>
+                </h3>
+                <p class="stack-card-desc">Google Sheets add-on and lead engine extracting verified business data from Google Maps using Playwright stream interceptors and zero-retention memory queue.</p>
+                <div class="stack-card-tech">
+                  <span class="stack-tech-tag">Playwright</span>
+                  <span class="stack-tech-tag">Apps Script</span>
+                  <span class="stack-tech-tag">Node.js</span>
+                  <span class="stack-tech-tag">Express</span>
+                </div>
+                <div class="stack-card-actions">
+                  <button class="stack-view-btn sk-case-study-btn" data-project-id="maplead-scraper" type="button">
+                    <span>Explore Architecture &amp; Media</span>
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="9 18 15 12 9 6"></polyline></svg>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 7: The Fitness Revolution -->
+          <article class="stack-card spotlight-card" data-project-id="fitness-revolution" style="--stack-index: 6;">
+            <div class="stack-card-inner">
+              <div class="stack-card-media">
+                <img src="assets/projects/thumb_fitness_revolution.png" alt="Frontend Website - Gym Website with WhatsApp Based Subscription" class="stack-card-img" loading="lazy">
+                <div class="stack-card-media-overlay">
+                  <button class="btn btn-primary btn-sm sk-case-study-btn" data-project-id="fitness-revolution" type="button">
+                    <span>View Case Study</span>
+                    <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="7" y1="17" x2="17" y2="7"></line><polyline points="7 7 17 7 17 17"></polyline></svg>
+                  </button>
+                </div>
+              </div>
+              <div class="stack-card-info">
+                <div class="stack-card-meta">
+                  <span class="stack-num">// 07 &bull; FITNESS &amp; AUTOMATION</span>
+                  <span class="stack-badge-private">CLIENT PLATFORM</span>
+                </div>
+                <h3 class="stack-card-title">
+                  <a href="#case-study" class="open-case-study-link" data-project-id="fitness-revolution">Frontend Website - Gym Website with WhatsApp Based Subscription</a>
+                </h3>
+                <p class="stack-card-desc">Responsive fitness web app featuring live operating hours status, interactive BMI &amp; TDEE calorie calculators, auto-highlighting daily schedule, and instant WhatsApp VIP trial booking.</p>
+                <div class="stack-card-tech">
+                  <span class="stack-tech-tag">HTML5</span>
+                  <span class="stack-tech-tag">CSS 3</span>
+                  <span class="stack-tech-tag">JavaScript</span>
+                  <span class="stack-tech-tag">GitHub</span>
+                </div>
+                <div class="stack-card-actions">
+                  <button class="stack-view-btn sk-case-study-btn" data-project-id="fitness-revolution" type="button">
+                    <span>Explore Architecture &amp; Media</span>
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="9 18 15 12 9 6"></polyline></svg>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 8: XpertVai -->
+          <article class="stack-card spotlight-card" data-project-id="xpertvai" style="--stack-index: 7;">
+            <div class="stack-card-inner">
+              <div class="stack-card-media">
+                <img src="assets/projects/thumb_xpertvai.png" alt="XpertVai On-Demand Home Services App" class="stack-card-img" loading="lazy">
+                <div class="stack-card-media-overlay">
+                  <button class="btn btn-primary btn-sm sk-case-study-btn" data-project-id="xpertvai" type="button">
+                    <span>View Case Study</span>
+                    <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="7" y1="17" x2="17" y2="7"></line><polyline points="7 7 17 7 17 17"></polyline></svg>
+                  </button>
+                </div>
+              </div>
+              <div class="stack-card-info">
+                <div class="stack-card-meta">
+                  <span class="stack-num">// 08 &bull; ON-DEMAND SERVICES</span>
+                  <span class="stack-badge-live">LIVE APP</span>
+                </div>
+                <h3 class="stack-card-title">
+                  <a href="#case-study" class="open-case-study-link" data-project-id="xpertvai">XpertVai On-Demand Home Services App</a>
+                </h3>
+                <p class="stack-card-desc">An interactive service booking web application built for XpertVai. Provides a seamless one-stop platform for booking AC repair, appliance maintenance, cleaning solutions, beauty &amp; wellness, and shifting services.</p>
+                <div class="stack-card-tech">
+                  <span class="stack-tech-tag">WordPress</span>
+                  <span class="stack-tech-tag">WooCommerce</span>
+                  <span class="stack-tech-tag">ACF</span>
+                  <span class="stack-tech-tag">Elementor</span>
+                </div>
+                <div class="stack-card-actions">
+                  <button class="stack-view-btn sk-case-study-btn" data-project-id="xpertvai" type="button">
+                    <span>Explore Architecture &amp; Media</span>
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="9 18 15 12 9 6"></polyline></svg>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         CONTACT SECTION
+         ========================================================================== -->
+    <section class="contact-section" id="contact">
+      <div class="container">
+        <div class="section-header reveal-item">
+          <span class="section-tag">[ 05 // INITIATE TRANSMISSION ]</span>
+          <h2 class="section-title">Let's Build <span>Together</span></h2>
+          <p class="section-subtitle">Have an exciting project, freelance inquiry, or full-time opportunity? Reach out directly or send a message below.</p>
+        </div>
+
+        <div class="contact-grid">
+          
+          <!-- Contact Info -->
+          <div class="contact-dossier-card spotlight-card">
+            
+            <div class="contact-card-header">
+              <h3 class="contact-card-title">Get in Touch</h3>
+              <p class="contact-card-desc">Have a project inquiry, freelance opportunity, or looking for a full-stack developer? Reach out through any channel below.</p>
+            </div>
+
+            <!-- Timezone & Status -->
+            <div class="contact-live-meta-row">
+              <div class="contact-meta-item">
+                <span class="meta-label">// LOCAL TIME (IST)</span>
+                <div class="meta-value">
+                  <span id="contact-live-time">--:--:--</span>
+                  <span class="meta-sub">Asia/Kolkata (UTC+5:30)</span>
+                </div>
+              </div>
+              <div class="contact-meta-item">
+                <span class="meta-label">// RESPONSE TIME</span>
+                <div class="meta-value">
+                  <span class="highlight-accent">&lt; 24 Hours</span>
+                  <span class="meta-sub">Direct Developer Inbox</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- Communication Channels -->
+            <div class="contact-card-list">
+              
+              <!-- Phone -->
+              <div class="contact-detail-card">
+                <div class="contact-card-left">
+                  <div class="contact-icon-box">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+                  </div>
+                  <div class="contact-card-text">
+                    <span>Phone Number</span>
+                    <a href="tel:+917001681958">+91 7001681958</a>
+                  </div>
+                </div>
+                <button class="copy-btn" data-copy="+917001681958" title="Copy Phone Number" aria-label="Copy Phone Number">
+                  <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>
+                </button>
+              </div>
+
+              <!-- Email -->
+              <div class="contact-detail-card">
+                <div class="contact-card-left">
+                  <div class="contact-icon-box">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+                  </div>
+                  <div class="contact-card-text">
+                    <span>Email Address</span>
+                    <a href="mailto:skundu97682@gmail.com">skundu97682@gmail.com</a>
+                  </div>
+                </div>
+                <button class="copy-btn" data-copy="skundu97682@gmail.com" title="Copy Email" aria-label="Copy Email">
+                  <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>
+                </button>
+              </div>
+
+              <!-- WhatsApp -->
+              <div class="contact-detail-card">
+                <div class="contact-card-left">
+                  <div class="contact-icon-box contact-icon-whatsapp">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12.04 2c-5.46 0-9.91 4.45-9.91 9.91 0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38c1.45.79 3.08 1.21 4.74 1.21 5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01A9.816 9.816 0 0 0 12.04 2zm.01 1.67c2.2 0 4.26.86 5.82 2.42a8.18 8.18 0 0 1 2.41 5.83c0 4.54-3.7 8.24-8.24 8.24-1.48 0-2.93-.4-4.2-1.15l-.3-.18-3.12.82.83-3.04-.2-.31a8.214 8.214 0 0 1-1.26-4.38c0-4.54 3.7-8.24 8.24-8.24v.01zm4.52 11.66c-.25-.13-1.47-.72-1.7-.81-.23-.08-.39-.13-.56.13-.17.25-.64.81-.79.97-.14.17-.29.19-.54.06-.25-.13-1.06-.39-2.02-1.25-.75-.67-1.26-1.5-1.41-1.75-.15-.25-.02-.39.11-.51.11-.11.25-.29.38-.44.12-.14.17-.25.25-.42.08-.17.04-.31-.02-.44-.06-.13-.56-1.34-.76-1.84-.2-.49-.4-.42-.56-.43h-.47c-.17 0-.44.06-.67.31-.23.25-.88.86-.88 2.1 0 1.24.9 2.44 1.03 2.61.12.17 1.77 2.7 4.29 3.79.6.26 1.07.41 1.44.53.6.19 1.15.16 1.58.1.48-.07 1.47-.6 1.68-1.18.21-.58.21-1.07.15-1.18-.06-.1-.23-.17-.48-.3z"/></svg>
+                  </div>
+                  <div class="contact-card-text">
+                    <span>Direct Chat</span>
+                    <a href="https://wa.me/917001681958" target="_blank" rel="noopener noreferrer">Message on WhatsApp</a>
+                  </div>
+                </div>
+                <a href="https://wa.me/917001681958" target="_blank" rel="noopener noreferrer" class="btn btn-outline btn-sm">Chat Now</a>
+              </div>
+
+              <!-- Location -->
+              <div class="contact-detail-card">
+                <div class="contact-card-left">
+                  <div class="contact-icon-box">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+                  </div>
+                  <div class="contact-card-text">
+                    <span>Location</span>
+                    <strong>Ashoknagar, North 24 Pgs, WB &ndash; 743223</strong>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+
+          </div>
+
+          <!-- Contact Form -->
+          <div class="contact-form-card spotlight-card">
+            
+            <div class="contact-card-header">
+              <h3 class="contact-card-title">Send a Message</h3>
+              <p class="contact-card-desc">Have a specific project or inquiry? Fill out the details below. Messages are delivered straight to my primary inbox.</p>
+            </div>
+
+            <form id="contact-form" action="https://formsubmit.co/skundu97682@gmail.com" method="POST">
+              <input type="hidden" name="_captcha" value="false">
+              <input type="hidden" name="_template" value="table">
+              <input type="hidden" name="_subject" id="form-hidden-subject" value="New Portfolio Inquiry - Sandip Kundu">
+              <input type="text" name="_honey" style="display:none" tabindex="-1" autocomplete="off">
+
+              <div class="form-row-2col">
+                <div class="form-group">
+                  <label for="form-name" class="form-label">Your Name <span class="req-star">*</span></label>
+                  <input type="text" id="form-name" name="name" class="form-control" placeholder="e.g. Rahul Sharma" required>
+                </div>
+
+                <div class="form-group">
+                  <label for="form-email" class="form-label">Your Email <span class="req-star">*</span></label>
+                  <input type="email" id="form-email" name="email" class="form-control" placeholder="e.g. rahul@example.com" required>
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label for="form-subject" class="form-label">Subject <span class="req-star">*</span></label>
+                <input type="text" id="form-subject" name="subject" class="form-control" placeholder="Project Inquiry / Job Opportunity" required>
+              </div>
+
+              <div class="form-group form-group-message">
+                <label for="form-message" class="form-label">Your Message <span class="req-star">*</span></label>
+                <textarea id="form-message" name="message" class="form-control" placeholder="Tell me about your project, timeline, deliverables, or technical stack..." required></textarea>
+              </div>
+
+              <div class="form-submit-row">
+                <button type="submit" class="btn btn-primary" id="form-submit-btn">
+                  <span>Send Message</span>
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="22" y1="2" x2="11" y2="13"></line><polygon points="22 2 15 22 11 13 2 9 22 2"></polygon></svg>
+                </button>
+                <div class="form-security-note">
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="11" width="18" height="11" rx="2" ry="2"></rect><path d="M7 11V7a5 5 0 0 1 10 0v4"></path></svg>
+                  <span>Direct inbox delivery &bull; Zero spam</span>
+                </div>
+              </div>
+            </form>
+          </div>
+
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ==========================================================================
+       FOOTER
+       ========================================================================== -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-bottom">
+        <p>&copy; 2026 Sandip Kundu. All rights reserved.</p>
+        <p>Built with Semantic HTML5, Modern Vanilla CSS &amp; JavaScript.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Back to Top -->
+  <button class="back-to-top" id="back-to-top" aria-label="Back to top">
+    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="18 15 12 9 6 15"></polyline></svg>
+  </button>
+
+  <!-- ==========================================================================
+       CASE STUDY MODAL
+       ========================================================================== -->
+  <div class="cs-modal-overlay" id="case-study-modal" role="dialog" aria-modal="true" aria-labelledby="cs-modal-title" data-lenis-prevent>
+    <div class="cs-modal-container" data-lenis-prevent>
+      
+      <!-- Modal Header -->
+      <div class="cs-modal-header">
+        <h2 class="cs-modal-title" id="cs-modal-title">Frontend Website - Tab Travels Whatsapp Booking Website</h2>
+        <div class="cs-header-actions">
+          <div class="cs-top-url-container" id="cs-top-url-container"></div>
+          <button class="cs-modal-close-btn" id="cs-modal-close" type="button" aria-label="Close modal">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+          </button>
+        </div>
+      </div>
+
+      <!-- Modal Body -->
+      <div class="cs-modal-body" data-lenis-prevent>
+        
+        <!-- Details Column -->
+        <aside class="cs-details-col">
+          
+          <div class="cs-section">
+            <h4 class="cs-label">My role.</h4>
+            <div class="cs-role" id="cs-role">Front End Development</div>
+          </div>
+
+          <div class="cs-section">
+            <h4 class="cs-label">Project description.</h4>
+            <p class="cs-desc" id="cs-desc"></p>
+          </div>
+
+          <div class="cs-section" id="cs-features-section">
+            <h4 class="cs-label">Key features:</h4>
+            <ul class="cs-features-list" id="cs-features-list"></ul>
+          </div>
+
+          <div class="cs-section" id="cs-note-section">
+            <p class="cs-note" id="cs-note"></p>
+          </div>
+
+          <div class="cs-section">
+            <h4 class="cs-label">Skills and deliverables</h4>
+            <div class="cs-skills-list" id="cs-skills-list"></div>
+          </div>
+
+          <div class="cs-section">
+            <div class="cs-published" id="cs-published">Published on Sep 26, 2026</div>
+          </div>
+
+          <div class="cs-section cs-footer-links">
+            <a href="#contact" class="cs-report-link" id="cs-contact-link">Inquire about this project</a>
+          </div>
+
+        </aside>
+
+        <!-- Media Column -->
+        <div class="cs-gallery-col" id="cs-gallery-col">
+          <div class="cs-gallery-media-stack" id="cs-gallery-media-stack"></div>
+
+          <!-- More Projects Carousel -->
+          <div class="cs-modal-bottom" id="cs-modal-bottom">
+            <div class="cs-more-header">
+              <h3 class="cs-more-title">More by Sandip K.</h3>
+              <div class="cs-more-controls">
+                <button class="cs-more-btn prev" id="cs-more-prev" type="button" aria-label="Previous project">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 18 9 12 15 6"></polyline></svg>
+                </button>
+                <button class="cs-more-btn next" id="cs-more-next" type="button" aria-label="Next project">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"></polyline></svg>
+                </button>
+              </div>
+            </div>
+            <div class="cs-more-carousel-wrap">
+              <div class="cs-more-carousel-track" id="cs-more-track"></div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </div>
+
+  <!-- Toast Notification -->
+  <div class="toast" id="toast" role="status" aria-live="polite">
+    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" style="color: var(--accent-orange);"><polyline points="20 6 9 17 4 12"></polyline></svg>
+    <span id="toast-message">Copied to clipboard!</span>
+  </div>
+
+  <!-- Smooth Scroll Script -->
+  <script src="assets/lenis.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
