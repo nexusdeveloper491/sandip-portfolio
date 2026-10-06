@@ -2,4 +2,4 @@ User-agent: *
 Allow: /
 
 # Sitemap Index
-Sitemap: https://nexusdeveloper491.github.io/sandip-portfolio/sitemap.xml
+Sitemap: https://sandipkundu.vercel.app/sitemap.xml
