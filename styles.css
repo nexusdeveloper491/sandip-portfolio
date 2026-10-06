@@ -2860,7 +2860,9 @@ textarea.form-control {
   }
 
   .contact-grid {
-    grid-template-columns: 1fr;
+    grid-template-columns: minmax(0, 1fr);
+    width: 100%;
+    max-width: 100%;
     gap: 1.75rem;
   }
 
@@ -3223,6 +3225,13 @@ textarea.form-control {
   /* Contact Section */
   .contact-section {
     padding-block: 3.5rem 4.5rem;
+    overflow-x: clip;
+  }
+
+  .contact-grid {
+    grid-template-columns: minmax(0, 1fr);
+    width: 100%;
+    max-width: 100%;
   }
 
   .contact-dossier-card,
@@ -3231,6 +3240,7 @@ textarea.form-control {
     border-radius: var(--radius-md);
     width: 100%;
     max-width: 100%;
+    min-width: 0;
     box-sizing: border-box;
   }
 
@@ -3552,6 +3562,21 @@ textarea.form-control {
 
   .skill-desc {
     font-size: 0.7rem;
+  }
+
+  .contact-grid {
+    grid-template-columns: minmax(0, 1fr);
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .contact-dossier-card,
+  .contact-form-card {
+    padding: 1.25rem 0.95rem;
+    min-width: 0;
+    width: 100%;
+    max-width: 100%;
+    box-sizing: border-box;
   }
 
   .contact-detail-card {
